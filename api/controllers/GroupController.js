@@ -10,6 +10,6 @@ module.exports = {
   },
   create: function(req,res){
     var data = req.params.all();
-    res.send(groupsAPI.create(data));
+    res.send(groupAPI.create(data));
   }
 };
