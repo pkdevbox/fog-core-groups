@@ -1,0 +1,30 @@
+{
+  "name": "fog-core-groups",
+  "version": "0.0.1",
+  "description": "Allow hosts to be grouped together.",
+  "main": "library.js",
+  "scripts": {
+    "test": "mocha ./tests -t 1000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FOGProject/fog-core-groups"
+  },
+  "keywords": [
+    "fog",
+    "plugin",
+    "core",
+    "groups"
+  ],
+  "author": {
+    "name": "FOG Project"
+  },
+  "fog": {
+    "compatibility": "0.0.1",
+    "hooks": [
+      "host.create",
+      "host.delete"
+    ]
+  },
+  "license": "GPL v3"
+}
